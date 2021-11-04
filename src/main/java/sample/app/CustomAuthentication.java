@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 public class CustomAuthentication implements HttpAuthenticationMechanism {
 
     public static final String COOKIE_GLOBAL_SESSION_ID = "GLOBAL_JSESSIONID";
-    public static final String REDIRECT_TO = "http://localhost:8080/GlobalSession";
+    public static final String REDIRECT_TO = "http://localhost:8080/GlobalSignOn";
 
     @Inject
     SecurityContext securityContext;
